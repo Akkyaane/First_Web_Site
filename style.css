@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+    background-image: url(images/background.avif);
+    background-position: no-repeat;
+    background-size: cover;
+    font-family: "Manrope", sans-serif;
+}
+
+/*Barre de navigation*/
+header {
+    position: fixed;
+    width: 89.3em;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0em 2em 0em;
+}
+
+.logo {
+    border: solid;
+    border-radius: 2em;
+    font-size: 1.6em;
+    margin: 0.2em;
+    padding: 0.2em;
+}
+
+.logo a {
+    color: rgb(240,146,54);
+    padding: 1em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.nav {
+    border: solid;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2em;
+    font-size: 1.4em;
+    margin: 0.4em;
+    padding: 0.2em;
+}
+
+nav a {
+    color: white;
+    margin: 0.5em;
+    text-decoration: none;
+}
+
+/*Accueil*/
+
+.accueil {
+    color: black;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 8em;
+    padding-bottom: 4em;
+}
+
+.a_propos {
+    background:rgba(0, 0, 0, 0.5);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.a_propos_de_moi {
+    text-align: justify;
+    margin: 2em;
+    order: 1;
+    font-size: 1em;
+}
+
+.a_propos_de_moi h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900
+}
+
+.a_propos_de_moi h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900
+}
+
+.img_a_propos {
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    order: 2;
+}
+
+.a_propos img {
+    margin: 2em;
+    height: 30em;
+    width: 40em;
+    box-shadow: 5px 5px 5px 0px #000000;
+}
+
+/*Stages*/
+
+.stages {
+    background:rgba(0, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.stages h1 {
+    font-size: 1.5em;
+}
+
+/*Projets*/
+
+.projets {
+    background:rgba(0, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.projets h1 {
+    font-size: 1.5em;
+}
+
+/*Photographie*/
+
+.photographie {
+    background:rgba(0, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.photographie h1 {
+    font-size: 1.5em;
+}
+
+/*Contact*/
+
+.contact {
+    background:rgba(0, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.contact h1 {
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
